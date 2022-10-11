@@ -1,0 +1,58 @@
+1. What exactly is []?
+Ans- [] is the way list is defined.
+
+2. In a list of values stored in a variable called spam, how would you assign the value hello as the
+third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Ans- 
+spam =[2, 4, 6, 8, 10]
+spam.insert(3, "Hello")
+spam
+
+
+3. What is the value of spam[int(int(&#39;3&#39; * 2) / 11)]?
+Ans- Hello
+
+4. What is the value of spam[-1]?
+Ans- 10
+
+5. What is the value of spam[:2]?
+Ans- [2, 4]
+
+Let's pretend bacon has the list [3.14, 'cat', 11, 'cat',True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+Ans- 1
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+Ans- [3.14, 'cat', 11, 'cat', True, 99]
+
+8. How does bacon.remove('cat') change the look of the list in bacon?
+Ans- [3.14, 11, 'cat', True]
+
+9. What are the list concatenation and list replication operators?
+Ans- Concatenation is "+" and  Replication is "*".
+
+10. What is difference between the list methods append() and insert()?
+Ans- append() inserts a value to the list at the end but with insert() there is a control to insert values in whatever position we want to.
+
+11. What are the two methods for removing items from a list?
+Ans- pop() and remove()
+
+12. Describe how list values and string values are identical.
+Ans- Both are sequential and are iterable.
+
+13. What is the difference between tuples and lists?
+Ans- Tuples are immutable while lists are mutable.
+
+14. How do you type a tuple value that only contains the integer 42?
+Ans-  (42,) -> We should put a comma
+
+15. How do you get a list values tuple form? How do you get a tuple values list form?
+Ans- list1= tuple(list1) and tuple1= list(tuple1)
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they
+contain?
+Ans- They contain reference to list values.
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Ans- copy() creates reference to the original object ie if we change copied object we change the original object as well.
+On the other hand, deepcopy() makes new object and does real copying of the main object.
